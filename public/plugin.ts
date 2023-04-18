@@ -74,7 +74,7 @@ export class DatatableMPlugin implements Plugin<void, void, DatatableVisualizati
     const startServices = createStartServicesGetter(core.getStartServices);
 
     // startServices().plugins.data.search.aggs.types.get
-    createStartServicesGetter(core.getStartServices)
+    // createStartServicesGetter(core.getStartServices)
     expressions.registerRenderer(() =>
       getDatatableRenderer({
         formatFactory,
