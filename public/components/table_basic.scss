@@ -1,0 +1,20 @@
+.lnsDatatableMContainer {
+  height: 100%;
+}
+
+// only apply truncation inside of a table cell (not within popover)
+.lnsDatatableMContainer .lnsTableCell {
+  @include euiTextTruncate;
+}
+
+.lnsTableCell--left {
+  text-align: left;
+}
+
+.lnsTableCell--right {
+  text-align: right;
+}
+
+.lnsTableCell--center {
+  text-align: center;
+}

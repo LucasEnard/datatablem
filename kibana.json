@@ -1,0 +1,25 @@
+{
+  "id": "datatablem",
+  "version": "0.1.6",
+  "kibanaVersion": "8.3.3",
+  "server": false,
+  "ui": true,
+  "requiredPlugins": [
+    "lens",
+    "dataViews",
+    "embeddable",
+    "expressions",
+    "fieldFormats",
+    "visualizations"
+  ],
+  "requiredBundles":[
+    "kibanaReact",
+    "charts",
+    "data",
+    "kibanaUtils"
+  ],
+  "optionalPlugins": [],
+  "owner": {
+    "name": "Lucas E"
+  }
+}

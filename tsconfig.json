@@ -1,0 +1,28 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./target/types"
+  },
+  "include": [
+    "index.ts",
+    "./*ts",
+    "./*tsx",
+    "public/**/*",
+    "server/**/*",
+    "common/**/*",
+    "../../../typings/**/*",
+    "drag_drop",
+    "lens_ui_telemetry"
+  ],
+  "exclude": [],
+  "references": [
+    { "path": "../../src/core/tsconfig.json" },
+    { "path": "../../src/plugins/expressions/tsconfig.json" },
+    { "path": "../../src/plugins/kibana_react/tsconfig.json" },
+    { "path": "../../src/plugins/data_views/tsconfig.json" },
+    { "path": "../../src/plugins/field_formats/tsconfig.json" },
+    { "path": "../../src/plugins/embeddable/tsconfig.json" },
+    { "path": "../../x-pack/plugins/lens/tsconfig.json" },
+    { "path": "../../examples/developer_examples/tsconfig.json" },
+  ]
+}
